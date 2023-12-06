@@ -26,5 +26,5 @@ jobs:
       with:
         args: --follow-symlinks --delete --exclude '.git/*'
       env:
-        AWS_S3_BUCKET: github-actions-bucket1
+        AWS_S3_BUCKET: github-actions-bucket-same-setting-as-receipt-dev
         SOURCE_DIR: '.'
